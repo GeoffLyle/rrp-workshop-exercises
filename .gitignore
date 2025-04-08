@@ -6,3 +6,10 @@
 
 # macOS hidden file
 .DS_Store
+
+# Ignore raw data in SRP255885
+data/raw/fastq/SRP255885/
+
+# Large FASTQ files
+*.fastq
+*.fastq.gz
