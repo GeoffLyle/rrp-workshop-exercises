@@ -7,7 +7,8 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
 # Set variables
-DATA_PATH="../data/raw/fastq/SRP255885"
+STUDY_ID="SRP255885"
+DATA_PATH="../data/raw/fastq/${STUDY_ID}"
 FQ_FILE1="SRR11518889_1.fastq.gz"
 FQ_FILE2="SRR11518889_2.fastq.gz"
 FQ_FILE_PATH1="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/${FQ_FILE1}"
