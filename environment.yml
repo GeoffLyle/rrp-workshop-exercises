@@ -1,0 +1,7 @@
+name: alsf-rrp
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastp
+prefix: /Users/aglyle/miniforge3/envs/alsf-rrp
