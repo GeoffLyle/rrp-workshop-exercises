@@ -13,3 +13,4 @@ data/raw/fastq/SRP255885/
 # Large FASTQ files
 *.fastq
 *.fastq.gz
+renv/library/macos/R-4.4/aarch64-apple-darwin20/
